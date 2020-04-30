@@ -104,14 +104,15 @@
         app:layout_constraintVertical_bias="0.653"
         tools:ignore="MissingConstraints" />
 
+
     <Button
-        android:id="@+id/facebook"
+        android:id="@+id/login_google"
         android:layout_width="88dp"
         android:layout_height="22dp"
         android:layout_marginEnd="110dp"
         android:layout_marginRight="110dp"
         android:background="#FFFFFF"
-        android:text="Entrar con Facebook"
+        android:text="Entrar con Google"
         android:textColor="#959393"
         android:textSize="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
