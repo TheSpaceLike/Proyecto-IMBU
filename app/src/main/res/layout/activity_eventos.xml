@@ -36,11 +36,25 @@
         android:textColor="@color/azulGris"
         android:textSize="30dp"
         android:layout_marginTop="35dp"
-        android:layout_marginLeft="120dp"/>
+        android:layout_marginLeft="135dp"/>
+
+
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="485dp"
+        android:src="@drawable/evento1" />
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginLeft="110dp"
-        />
+        android:text="Picnic Day!"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/gris"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="14 de Marzo"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/gris"/>
 </LinearLayout>

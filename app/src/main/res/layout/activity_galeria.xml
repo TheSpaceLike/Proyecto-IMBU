@@ -29,18 +29,37 @@
             android:layout_marginTop="25dp"/>
 
     </LinearLayout>
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Restaurantes"
-        android:textColor="@color/azulGris"
-        android:textSize="30dp"
-        android:layout_marginTop="35dp"
-        android:layout_marginLeft="120dp"/>
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginLeft="110dp"
-        />
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/agregar_48px"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="350dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="184dp"
+            android:src="@drawable/galeria1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="195dp"
+            android:src="@drawable/galeria2"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="195dp"
+            android:src="@drawable/galeria3"/>
+    </LinearLayout>
+
 </LinearLayout>

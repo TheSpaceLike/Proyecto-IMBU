@@ -34,73 +34,69 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nombre Actividad"
+            android:text="Picnic Day!"
             android:textSize="30dp"
+            android:textAlignment="center"
             android:layout_marginTop="45dp"
-            android:layout_marginLeft="100dp"
-            android:layout_marginRight="70dp"
             android:textColor="@color/azulGris"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lugar"
+            android:text="¡En parque los pioneros!"
+            android:textAlignment="center"
             android:textColor="@color/negro"
             android:textSize="20dp"
-            android:layout_marginTop="2dp"
-            android:layout_marginLeft="150dp"
-            android:layout_marginRight="150dp"/>
+            android:layout_marginTop="2dp"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Fecha"
+            android:text="14 de Marzo"
             android:textColor="@color/gris"
             android:textSize="25dp"
             android:layout_marginTop="2dp"
-            android:layout_marginLeft="150dp"
-            android:layout_marginRight="150dp"/>
+            android:textAlignment="center"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hora"
+            android:text="12:00 AM A 3:00 PM"
             android:textColor="@color/gris"
             android:textSize="20dp"
             android:layout_marginTop="2dp"
-            android:layout_marginLeft="150dp"
-            android:layout_marginRight="150dp"/>
+            android:textAlignment="center"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Contenido evento"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:text="Diversion, entretenimiento y compañia totalmente gratuito para ti y tu consentido!  Solo debes traer el lonche de tu elección para ti y tu pequeño. Habra banquitas, almohadas y mantas para su comodidad. También habra venta de bebidas  refrescantes."
             android:textColor="@color/gris"
+            android:textAlignment="center"
             android:textSize="20dp"
-            android:layout_marginTop="50dp"
-            android:layout_marginLeft="150dp"
-            android:layout_marginRight="150dp"/>
+            android:layout_marginTop="50dp"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="tipo de evento"
+            android:text="Evento Mensual!"
             android:textColor="@color/verdeOscuro"
             android:textSize="20dp"
             android:layout_marginTop="100dp"
-            android:layout_marginLeft="100dp"
-            android:layout_marginRight="150dp"/>
+            android:textAlignment="center"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="organizador: Nombre Organizador"
+            android:text="organizadora: Lupita Ramirez"
             android:textColor="@color/verdeOscuro"
             android:textSize="20dp"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"/>
+            android:textAlignment="center"
+            />
     </LinearLayout>
 </LinearLayout>
