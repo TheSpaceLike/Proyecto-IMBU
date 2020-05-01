@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginIniciarActivity">
+    tools:context=".MenuPrincipalActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -104,14 +104,15 @@
         app:layout_constraintVertical_bias="0.653"
         tools:ignore="MissingConstraints" />
 
+
     <Button
-        android:id="@+id/facebook"
+        android:id="@+id/login_google"
         android:layout_width="90dp"
         android:layout_height="30dp"
         android:layout_marginEnd="110dp"
         android:layout_marginRight="110dp"
-        android:background="#FFFFFF"
-        android:text="Entrar con Facebook"
+        android:background="FFFFFF"
+        android:text="Entrar con Google"
         android:textColor="#959393"
         android:textSize="9dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -120,9 +121,10 @@
         app:layout_constraintStart_toEndOf="@+id/registrateAhora"
         app:layout_constraintTop_toBottomOf="@+id/iniciarSesion"
         app:layout_constraintVertical_bias="0.146"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        />
 
-    <Button
+<Button
         android:id="@+id/registrateAhora"
         android:layout_width="90dp"
         android:layout_height="30dp"

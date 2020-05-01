@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/regresar_48px"
+        android:layout_marginTop="25dp"
+        android:layout_weight="1"/>
+
+        <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/inicio_48px"
+        android:layout_weight="5"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="100dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <ImageView
+            android:layout_width="178dp"
+            android:layout_height="151dp"
+            android:src="@drawable/fotos11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.5"
+            android:layout_marginLeft="70dp"
+            android:textSize="25dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:textSize="30dp"
+            android:text="Lorem ipsum dolor sit amet, consectetuer adipscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
