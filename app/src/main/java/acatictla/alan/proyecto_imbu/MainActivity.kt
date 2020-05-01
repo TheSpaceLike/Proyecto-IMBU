@@ -22,9 +22,9 @@ class MainActivity : AppCompatActivity() {
     lateinit var mGoogleSignInClient: GoogleSignInClient
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-<<<<<<< HEAD
+
         setContentView(R.layout.activity_registrar_usuario)
-=======
+
         setContentView(R.layout.activity_login_iniciar)
         val gso =
             GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
@@ -76,6 +76,6 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, MenuPrincipalActivity::class.java)
             startActivity(intent)
         }
->>>>>>> 93e865a0ad544f15ec4c8d2e71a360de723cc937
+
     }
 }
