@@ -66,14 +66,14 @@ class MainActivity : AppCompatActivity() {
 
     private fun updateUI(account: GoogleSignInAccount?) {
         if(account != null){
-            val intent = Intent(this, MenuPrincipalActivity::class.java)
+            val intent = Intent(this, DrawerActivity::class.java)
             intent.putExtra("name", account.displayName)
             intent.putExtra("email", account.email)
             var nombre: String  = account.displayName.toString()
             Toast.makeText(this,"Usuario: "+ nombre +" se autentificó con exito",Toast.LENGTH_SHORT).show()
             startActivity(intent)
         } else  {
-            val intent = Intent(this, MenuPrincipalActivity::class.java)
+            val intent = Intent(this, DrawerActivity::class.java)
             startActivity(intent)
         }
 

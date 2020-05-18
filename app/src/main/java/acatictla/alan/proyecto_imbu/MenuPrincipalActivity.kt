@@ -1,7 +1,9 @@
 package acatictla.alan.proyecto_imbu
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MenuPrincipalActivity : AppCompatActivity() {
 
@@ -13,5 +15,15 @@ class MenuPrincipalActivity : AppCompatActivity() {
             val nombre = bundle.getString("name")
             val correo = bundle.getString("email")
         }
+
+        navbarmain.setOnClickListener {
+            val intent = Intent(this, DrawerActivity::class.java)
+            startActivity(intent)
+        }
+
+//        btn_eventos.setOnClickListener{
+//            val intent = Intent(this, EventosActivity::class.java)
+//            startActivity(intent)
+//        }
     }
 }

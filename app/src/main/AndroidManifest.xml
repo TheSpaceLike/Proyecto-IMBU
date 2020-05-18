@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RestaurantesActivity"></activity>
+        <activity android:name=".RestauranteFragmentA"></activity>
+        <activity android:name=".ui.GaleriaFragment2" />
+        <activity android:name=".Restaurantes2" />
+        <activity
+            android:name=".DrawerActivity"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RestaurantesActivity" />
         <activity android:name=".RestauranteActivity" />
         <activity android:name=".RegistrarUsuarioActivity" />
         <activity android:name=".RegistrarConfirmacion" />
