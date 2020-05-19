@@ -39,9 +39,9 @@ class GalleryFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         galleryViewModel = ViewModelProviders.of(this).get(GalleryViewModel::class.java)
-        btn_gal1.setOnClickListener {
-            val intent = Intent(activity, GaleriaActivity::class.java)
-            startActivity(intent)
-        }
+//        btn_gal1.setOnClickListener {
+//            val intent = Intent(activity, GaleriaActivity::class.java)
+//            startActivity(intent)
+//        }
     }
 }

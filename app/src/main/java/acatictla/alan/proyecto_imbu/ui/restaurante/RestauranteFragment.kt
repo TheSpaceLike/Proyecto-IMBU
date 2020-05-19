@@ -33,6 +33,10 @@ class RestauranteFragment : Fragment() {
             val intent = Intent(activity, RestauranteActivity::class.java)
             startActivity(intent)
         }
+
+        Volver.setOnClickListener {
+            fragmentManager?.popBackStack()
+        }
     }
 
 }

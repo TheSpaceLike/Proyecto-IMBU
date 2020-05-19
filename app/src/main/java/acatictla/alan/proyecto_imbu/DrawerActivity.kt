@@ -41,6 +41,7 @@ class DrawerActivity : AppCompatActivity() {
             ), drawerLayout
         )
 
+        
 //        btn_eventos.setOnClickListener {
 //            val intent = Intent(this, EventoActivity::class.java)
 //            startActivity(intent)

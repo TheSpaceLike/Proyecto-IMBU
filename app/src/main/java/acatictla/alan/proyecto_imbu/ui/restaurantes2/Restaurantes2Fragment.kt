@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import acatictla.alan.proyecto_imbu.R
 import acatictla.alan.proyecto_imbu.RestauranteActivity
 import android.content.Intent
+import android.widget.ImageView
 import kotlinx.android.synthetic.main.activity_eventos.*
 
 class Restaurantes2Fragment : Fragment() {
@@ -24,7 +25,14 @@ class Restaurantes2Fragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        return inflater.inflate(R.layout.activity_eventos, container, false)
+        var root = inflater.inflate(R.layout.activity_eventos, container, false)
+
+        var btn: ImageView = root.findViewById(R.id.Volver)
+
+//        btn.setOnClickListener { No funciona bien, mata a toda la actividad
+//            activity?.finish()
+//        }
+        return root
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
@@ -33,6 +41,10 @@ class Restaurantes2Fragment : Fragment() {
         btn_evento.setOnClickListener {
             val intent = Intent(activity, EventoActivity::class.java)
             startActivity(intent)
+        }
+
+        Volver.setOnClickListener {
+            fragmentManager?.popBackStack()
         }
     }
 

@@ -31,10 +31,14 @@ class GaleriaFragment2Fragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProviders.of(this).get(GaleriaFragment2ViewModel::class.java)
 
-        btn_gal1.setOnClickListener {
-            val intent = Intent(activity, GaleriaActivity::class.java)
-            startActivity(intent)
+        Volver.setOnClickListener {
+            fragmentManager?.popBackStack()
         }
+
+//        btn_gal1.setOnClickListener {
+//            val intent = Intent(activity, GaleriaActivity::class.java)
+//            startActivity(intent)
+//        }
     }
 
 }
