@@ -11,6 +11,7 @@
         android:orientation="horizontal">
 
         <ImageView
+            android:id="@+id/Volver"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/regresar_48px"
@@ -18,6 +19,7 @@
             android:layout_weight="1"/>
 
         <ImageView
+            android:id="@+id/Inicio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/inicio_48px"
@@ -26,6 +28,7 @@
             android:layout_marginRight="50dp"/>
 
         <ImageView
+            android:id="@+id/Buscar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/buscar_48px"
@@ -48,6 +51,7 @@
         android:layout_height="485dp"
         android:src="@drawable/evento1" />
     <TextView
+        android:id="@+id/Nombre_Evento"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Picnic Day!"
@@ -55,6 +59,7 @@
         android:textAlignment="center"
         android:textColor="@color/gris"/>
     <TextView
+        android:id="@+id/Hora_Evento"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="14 de Marzo"

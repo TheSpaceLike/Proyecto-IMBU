@@ -24,6 +24,7 @@
         />
 
         <ImageView
+            android:id="@+id/Buscar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/buscar_48px"
@@ -56,63 +57,15 @@
         android:text="Today!"/>
 
    </LinearLayout>
-
-    <LinearLayout
+    <GridView
         android:layout_width="match_parent"
-        android:layout_height="170dp"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="70dp">
 
-        <ImageView
-            android:id="@+id/btn_evento"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/menu1" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:src="@drawable/menu2" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="170dp"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:src="@drawable/menu3" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/menu4" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="170dp"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:src="@drawable/menu5"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:src="@drawable/menu6"/>
-
-    </LinearLayout>
+    </GridView>
 
 </LinearLayout>

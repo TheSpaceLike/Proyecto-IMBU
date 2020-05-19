@@ -8,7 +8,7 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/btn_gal1"
+            android:id="@+id/Volver"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/regresar_48px"
@@ -16,7 +16,7 @@
             android:layout_weight="1"/>
 
         <ImageView
-            android:id="@+id/btn_gal2"
+            android:id="@+id/Inicio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/inicio_48px"
@@ -25,7 +25,8 @@
             android:layout_marginRight="50dp"/>
 
         <ImageView
-            android:id="@+id/btn_gal3"
+
+            android:id="@+id/Buscar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/buscar_48px"
@@ -37,6 +38,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <ImageView
+            android:id="@+id/Añadir_Imagen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/agregar_48px"
@@ -49,20 +51,10 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="184dp"
-            android:src="@drawable/galeria1" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="195dp"
-            android:src="@drawable/galeria2"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="195dp"
-            android:src="@drawable/galeria3"/>
+        <ListView
+            android:id="@+id/Galeria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
     </LinearLayout>
 
 </LinearLayout>
