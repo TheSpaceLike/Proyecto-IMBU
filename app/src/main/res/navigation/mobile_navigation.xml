@@ -46,5 +46,10 @@
         android:name="acatictla.alan.proyecto_imbu.ui.restaurantes2.Restaurantes2Fragment"
         android:label="@string/menu_eventos"
         tools:layout="@layout/activity_eventos"/>
+    <activity
+        android:id="@+id/nav_galeria"
+        android:name="acatictla.alan.proyecto_imbu.ui.gallery.FirstChristmas"
+        android:label="activity_first_christmas"
+        tools:layout="@layout/activity_first_christmas" />
 
 </navigation>

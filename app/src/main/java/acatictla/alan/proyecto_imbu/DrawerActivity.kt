@@ -42,10 +42,10 @@ class DrawerActivity : AppCompatActivity() {
         )
 
         
-//        btn_eventos.setOnClickListener {
-//            val intent = Intent(this, EventoActivity::class.java)
-//            startActivity(intent)
-//        }
+ //      btn_eventos.setOnClickListener {
+ //        val intent = Intent(this, EventoActivity::class.java)
+ //          startActivity(intent)
+//      }
 //        val intent = Intent(this,  RestaurantesActivity::class.java)
 //        startActivity(intent)
 
